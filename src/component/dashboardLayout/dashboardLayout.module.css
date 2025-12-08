@@ -1,0 +1,6 @@
+.wrapper {
+    display: flex;
+    align-items: flex-start;
+    height: 100vh;
+    background-color: black;
+}
