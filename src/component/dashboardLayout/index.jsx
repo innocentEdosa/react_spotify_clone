@@ -1,11 +1,11 @@
 import Sidebar from "../sidebar";
 import styles from "./dashboardLayout.module.css";
 
-const DashboardLayout = () => {
+const DashboardLayout = ({ children }) => {
   return (
-    <main className={styles.wrapper}>
-        <Sidebar />
-      <div>for everyother content</div>
+    <main className={styles.container}>
+      <Sidebar />
+      <div>{children}</div>
     </main>
   );
 };

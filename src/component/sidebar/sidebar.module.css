@@ -1,4 +1,45 @@
 .container {
-    background-color: red;
+    background-color: var(--dark);
+    color: white;
     height: 100%;
+    width: 17.5rem;
+    padding-top: 40px;
+    padding-left: 21px;
+    padding-right: 21px;
 }
+
+.navList {
+    display: flex;
+    flex-direction: column;
+}
+
+.navListItem  {
+    list-style: none;
+}
+
+.navListItem > .navItems, .categoryListItem {
+    display: flex;
+    align-items: center;
+    padding: 18px;
+    gap: 16.75px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family:  -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.categoryList {
+    padding-top: 24px;
+    margin-top: 24px;
+    border-top: 1px solid rgba(255, 255, 255, 0.521)
+}
+
+.categoryList > .categoryListItem {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+

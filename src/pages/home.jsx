@@ -5,7 +5,7 @@ const HomePage = () => {
   return (
     <div>
       <DashboardLayout>
-
+          <div style={{color: 'white'}}>This is the home page</div>
       </DashboardLayout>
     </div>
   );
