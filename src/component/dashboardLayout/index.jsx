@@ -7,7 +7,7 @@ const DashboardLayout = ({ children }) => {
   return (
     <main className={styles.container}>
       <Sidebar />
-      <div>{children}</div>
+      <div className="py-[47px] px-[50px] w-full  h-full overflow-scroll">{children}</div>
     </main>
   );
 
